@@ -1,0 +1,248 @@
+{
+  "theme": {
+    "name": "AlexTheme",
+    "styles": [
+      "myStyle",
+      "default",
+      "black"
+    ],
+    "version": "2.7",
+    "sharedTheme": {
+      "useHeader": true,
+      "useLogo": false,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": null
+    }
+  },
+  "portalUrl": "https://esrimastergis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "App para usuarios",
+  "subtitle": "Gestión de Espacios de uso Recreativo S.L.",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "Cuéntanos!!",
+      "url": "https://survey123.arcgis.com/share/7664c6a1818e4ae18a1dd276917206ec"
+    }
+  ],
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/AlexTheme/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 67,
+          "bottom": 30,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Scalebar_Widget_62",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 67,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_HomeButton_Widget_63",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 67,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Coordinate_Widget_64",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/BasemapGallery/Widget",
+        "position": {
+          "left": 105,
+          "top": 5,
+          "width": 430,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_BasemapGallery_Widget_65",
+        "name": "BasemapGallery"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 5,
+          "width": 400,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_66",
+        "name": "UrlButton",
+        "version": "2.5",
+        "closeable": true,
+        "uri": "widgets/UrlButton/Widget",
+        "config": "configs/UrlButton/config__66.json",
+        "label": "App Emergencias",
+        "icon": "configs\\UrlButton\\icon__66.png"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 67,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_ZoomSlider_Widget_67",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "themes/AlexTheme/widgets/SidebarController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 50,
+          "relativeTo": "browser"
+        },
+        "id": "themes_AlexTheme_widgets_SidebarController_Widget_68",
+        "name": "SidebarController",
+        "version": "2.7"
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "0da62eb429954d58a43b4fc45079c979",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://www.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/AlexTheme/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "top": 0,
+        "left": 50,
+        "bottom": 0,
+        "width": 300,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "Legend",
+        "version": "2.7",
+        "uri": "widgets/Legend/Widget",
+        "index": 2,
+        "id": "widgets_Legend_Widget_60"
+      },
+      {
+        "name": "eBookmark",
+        "version": "2.5",
+        "IsController": false,
+        "uri": "widgets/eBookmark/Widget",
+        "index": 3,
+        "id": "widgets_eBookmark_Widget_57",
+        "config": "configs/eBookmark/config_widgets_eBookmark_Widget_57.json"
+      },
+      {
+        "name": "NearMe",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/NearMe/Widget",
+        "index": 4,
+        "id": "widgets_NearMe_Widget_56",
+        "config": "configs/NearMe/config_widgets_NearMe_Widget_56.json"
+      },
+      {
+        "name": "Directions",
+        "label": "Indicaciones_2",
+        "version": "2.7",
+        "uri": "widgets/Directions/Widget",
+        "config": "configs/Directions/config_widgets_Directions_Widget_70.json",
+        "index": 5,
+        "id": "widgets_Directions_Widget_70"
+      },
+      {
+        "name": "Filter",
+        "version": "2.7",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_71.json",
+        "index": 6,
+        "id": "widgets_Filter_Widget_71"
+      },
+      {
+        "name": "About",
+        "label": "Cuéntanos",
+        "version": "2.7",
+        "icon": "configs\\About\\icon_widgets_About_Widget_72.png",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_widgets_About_Widget_72.json",
+        "index": 7,
+        "id": "widgets_About_Widget_72"
+      },
+      {
+        "name": "About",
+        "version": "2.7",
+        "uri": "widgets/About/Widget",
+        "index": 8,
+        "id": "widgets_About_Widget_55"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#132838",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 200,
+      "height": 200
+    }
+  },
+  "wabVersion": "2.7",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "logoLink": "http://"
+}

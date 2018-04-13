@@ -1,0 +1,40 @@
+{
+  "name": "AlexTheme",
+  "label": "Alex Theme",
+  "platform": "HTML",
+  "panels": [{
+    "name": "SimpleBorderPanel",
+    "description": "This is a panel with a border"
+  }],
+  "styles": [{
+      "name": "default",
+      "description": "this is default style",
+      "styleColor": "red"
+    },
+    {
+      "name": "black",
+      "description": "this is black style",
+      "styleColor": "#000000"
+    },
+    {
+      "name": "myStyle",
+      "description": "this is demo style",
+      "styleColor": "#eee"
+    }
+  ],
+  "layouts": [{
+      "name": "default",
+      "description": "this is the left layout"
+    },
+    {
+      "name": "right",
+      "description": "this is the right layout"
+    }
+  ],
+  "version": "2.7",
+  "wabVersion": "2.7",
+  "author": "Alejandro Rogado de Quevedo",
+  "description": "Tema modificado a partir del tema NewTheme de Alejandro Pequeño",
+  "copyright": "ARQ",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

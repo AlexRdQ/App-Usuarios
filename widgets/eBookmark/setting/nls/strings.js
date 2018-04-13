@@ -1,0 +1,30 @@
+define({
+  root: ({
+    add: "Click to Add a New Bookmark",
+    title: "Title",
+    placeholderBookmarkName: "Bookmark Name",
+    ok: "OK",
+    cancel: "Cancel",
+    warning: "Please finish the edit!",
+    edit: "Edit bookmark",
+    editFolder: "Edit folder",
+    errorNameExist: "Bookmark exists!",
+    errorNameNull: "Invalid bookmark name!",
+    addBookmark: "Create a New Bookmark",
+    thumbnail: "Thumbnail",
+    thumbnailHint: "Click the image to update",
+    titlebookmarks: "Bookmarks",
+    labelDelete: "Delete",
+    labelEdit: "Edit",
+    webmapfoldername: "Webmap Bookmarks",
+    addBookmarks: "Allow adding bookmarks or folders in the widget",
+    addFolder: "Add Folder",
+    _addBookmark: "Add Bookmark",
+    clearSelected: "Clear Selected",
+    clearToolTip: "The selected node in the tree will determine where a new bookmark is added. To add a new bookmark in the root of the tree you need to clear the current selected node.",
+    expanded: "Folder expanded",
+    extentThumbnailHint: "Add the map image below as the thumbnail",
+    addMapImage: "Add Map Image",
+    or: "Or"
+  })
+});

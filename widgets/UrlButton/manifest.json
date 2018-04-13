@@ -1,0 +1,16 @@
+{
+  "name": "UrlButton",
+  "platform": "HTML",
+  "version": "2.5",
+  "wabVersion": "2.5",
+  "author": "Robert Scheitlin",
+  "description": "Button for adding a URL link",
+  "copyright": "2017",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasUIFile": false,
+    "hasConfig": true,
+    "supportMultiInstance": true
+  }
+}

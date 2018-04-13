@@ -1,0 +1,75 @@
+.jimu-main-background {
+  background-color: #323232;
+}
+
+.icon-node img {
+  opacity: 0.65;
+}
+
+.icon-node.jimu-state-active {
+  background-color: #111;
+  position: relative;
+}
+
+.icon-node.jimu-state-active:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 3px;
+  background-color: #2196F3;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.icon-node.jimu-state-active:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border-width: 4px 4px 4px 0;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+  margin-top: -4px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.icon-node:hover img, .icon-node.jimu-state-active img, .group-tooltip .icon-node.jimu-state-active:hover img {
+  opacity: 1;
+}
+
+.group-tooltip {
+  background-color: #111;
+  border-left: 2px solid #fff;
+}
+
+.group-tooltip .icon-node.jimu-state-active:before, .group-tooltip .icon-node.jimu-state-active:after {
+  content: none;
+}
+
+.group-tooltip .icon-node.jimu-state-active img {
+  opacity: 0.65;
+}
+
+.jimu-border-panel {
+  border: 0;
+  -webkit-box-shadow: 1px 0 0.5px rgba(0, 0, 0, 0.2), 1px 0 2px rgba(0, 0, 0, 0.07);
+  box-shadow: 1px 0 0.5px rgba(0, 0, 0, 0.2), 1px 0 2px rgba(0, 0, 0, 0.07);
+}
+
+.jimu-widget-frame.jimu-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  position: relative;
+  padding: 14px 14px 14px 14px;
+  background-color: rgb(57, 57, 57);
+}
+
+.jimu-widget {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  color: white;
+}

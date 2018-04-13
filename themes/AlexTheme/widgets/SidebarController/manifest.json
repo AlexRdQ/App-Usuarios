@@ -1,0 +1,17 @@
+{
+  "name": "SidebarController",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.7",
+  "wabVersion": "2.7",
+  "author": "Alejandro Pequeño",
+  "description": "Este el controlador de widgets",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "isController": true,
+    "isThemeWidget": true
+  }
+}

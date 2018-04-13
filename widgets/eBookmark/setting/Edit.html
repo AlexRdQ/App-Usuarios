@@ -1,0 +1,32 @@
+<div style="width: 100%">
+  <table class="setting-table input-table" cellspacing="0">
+      <tbody>
+        <tr>
+          <td title="${nls.title}" class="first">*${nls.title}</td>
+          <td class="second">
+            <input type="text" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="name"
+            required="true" placeholder="${nls.title}" data-dojo-props="style:{width:'100%'},intermediateChanges:true"/>
+          </td>
+        </tr>
+        <tr>
+          <td title="${nls.thumbnail}" class="first">${nls.thumbnail}</td>
+          <td class="second">
+            <div data-dojo-attach-point="imageChooserBase"></div>&nbsp;&nbsp;&nbsp;&nbsp;(${nls.thumbnailHint})
+          </td>
+        </tr>
+        <tr>
+          <td class="first">&nbsp;</td>
+          <td class="second">${nls.or}</td>
+        </tr>
+        <tr>
+          <td class="first">&nbsp;</td>
+          <td class="second">
+            <div data-dojo-attach-point="btnAddExtenTumbnail" data-dojo-attach-event="onclick:onAddExtenTumbnailClick"
+                 class="Add-btn disabled" title="${nls.extentThumbnailHint}">
+                 <img src="../images/map.png" alt="extent image" class="btn-map" data-dojo-attach-point="btnAddExtenTumbnailImg"/>${nls.addMapImage}</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="extent-chooser" style="height: 400px" data-dojo-attach-point="extentChooserNode"></div>
+</div>

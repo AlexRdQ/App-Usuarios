@@ -1,0 +1,82 @@
+{
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/AlexTheme/panels/SimpleBorderPanel/Panel"
+    },
+    "widgets": [{
+      "uri": "widgets/Scalebar/Widget",
+      "position": {
+        "left": 67,
+        "bottom": 30
+      },
+      "version": "2.7"
+    }, {
+      "uri": "widgets/HomeButton/Widget",
+      "position": {
+        "left": 67,
+        "top": 75
+      },
+      "version": "2.7"
+    }, {
+      "uri": "widgets/Coordinate/Widget",
+      "position": {
+        "left": 67,
+        "bottom": 10
+      },
+      "version": "2.7"
+    }, {
+      "uri": "widgets/BasemapGallery/Widget",
+      "position": {
+        "left": 105,
+        "top": 5,
+        "width": 430,
+        "height": 410
+      },
+      "version": "2.7"
+    }, {
+      "position": {
+        "left": 155,
+        "top": 5,
+        "width": 400,
+        "height": 410
+      }
+    }, {
+      "uri": "widgets/ZoomSlider/Widget",
+      "visible": true,
+      "position": {
+        "top": 5,
+        "left": 67
+      },
+      "version": "2.7"
+    }, {
+      "uri": "themes/AlexTheme/widgets/SidebarController/Widget",
+      "position": {
+        "left": 0,
+        "top": 0,
+        "bottom": 0,
+        "width": 50,
+        "relativeTo": "browser"
+      }
+    }]
+  },
+
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/AlexTheme/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "top": 0,
+        "left": 50,
+        "bottom": 0,
+        "width": 300
+      }
+    }
+  }
+}

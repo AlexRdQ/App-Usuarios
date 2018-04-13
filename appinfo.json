@@ -1,0 +1,9 @@
+{
+  "name": "Aplicación para Usuarios",
+  "description": "Aplicación destinara a brindar información a visitantes y usuarios del Parque Juan Carlos I",
+  "createdTime": 1522231303537,
+  "lastUpdated": 1523571588723,
+  "creator": "RogadodeQuevedo",
+  "icon": "images/icon.png",
+  "thumbnail": "images/thumbnail.png"
+}

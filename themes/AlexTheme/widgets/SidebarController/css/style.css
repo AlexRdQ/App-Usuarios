@@ -1,0 +1,28 @@
+.icon-node {
+    min-width: 50px;
+    padding: 12px 5px;
+    text-align: center;
+}
+
+.icon-node img {
+    width: 80%;
+    max-width: 24px;
+}
+
+.icon-node.jimu-state-active {
+    background: #000;
+}
+
+.group-tooltip {
+    display: none;
+    position: absolute;
+    background: #000;
+}
+
+.group-tooltip.show {
+    display: block;
+}
+
+.group-tooltip .icon-node {
+    display: inline-block;
+}
